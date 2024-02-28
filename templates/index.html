@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Media Homepage</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Social Web</h1>
+    </header>
+    <div>
+        <a href="{% url 'profile' %}">Your Profile</a>
+    </div>
+    <main>
+        <h2>Latest Posts</h2>
+        <!-- Latest posts will go here -->
+    </main>
+</body>
+</html>
